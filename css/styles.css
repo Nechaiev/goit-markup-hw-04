@@ -73,7 +73,7 @@ img {
 }
 
 .header {
-  border: 1px solid #ECECEC;
+  border-bottom: 1px solid #ECECEC;
 }
 
 .nav-flex {
@@ -241,6 +241,10 @@ display: flex;
 
 .team-item:not(:last-child) {
   margin-right: 30px;
+}
+
+.team-item {
+  background-color: var(--white-back-text-color)
 }
 
 .team-workers {
