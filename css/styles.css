@@ -89,11 +89,16 @@ img {
 .header-nav-list {
   display: flex;
   margin-left: 93px;
+  gap: 50px;
 }
 
-.header-nav-item:not(:last-child) {
-  margin-right: 50px;
+.header-nav-item {
+  width: calc((100% - 100px) / 3);
 }
+
+/* .header-nav-item:not(:last-child) {
+  margin-right: 50px;
+} */
 
 .header-nav-link {
   display: block;
@@ -184,6 +189,11 @@ margin-left: auto;
 /* ~~~~~~СПИСОК ПЕРЕВАГ~~~~~~ */
 .features-list {
 display: flex;
+gap: 30px;
+}
+
+.features-item {
+  width: calc((100% - 90px) / 4);
 }
 
 .features {
@@ -191,10 +201,10 @@ display: flex;
   padding-bottom: 94px;
 }
 
-.features-list:not(:last-child) {
+/* .features-item:not(:last-child):not(:last-child) {
   margin-right: 30px;
   max-width: 270px;
-}
+} */
 
 .features-title {
   margin-bottom: 10px;
@@ -218,11 +228,16 @@ display: flex;
 
 .work-list {
   display: flex;
+  gap: 30px;
 }
 
-.work-item:not(:last-child) {
-  margin-right: 30px;
+.work-item {
+  width: calc((100% - 60px) / 3);
 }
+
+/* .work-item:not(:last-child) {
+  margin-right: 30px;
+} */
 
 .work-section {
   padding-bottom: 94px;
@@ -237,11 +252,16 @@ display: flex;
 
 .team-list {
   display: flex;
+  gap: 30px;
 }
 
-.team-item:not(:last-child) {
-  margin-right: 30px;
+.team-item {
+  width: calc((100% - 90px) / 4);
 }
+
+/* .team-item:not(:last-child) {
+  margin-right: 30px;
+} */
 
 .team-item {
   background-color: var(--white-back-text-color)
@@ -314,11 +334,16 @@ color: var(--secondary-text-color)
   display: flex;
   justify-content: center;
   padding-bottom: 50px;
+  gap: 8px;
 }
 
-.portfolio-btn-item:not(:last-child) {
+/* .portfolio-btn-item {
+  width: calc((100%-32px)/5);
+} */
+
+/* .portfolio-btn-item:not(:last-child) {
   margin-right: 8px;
-}
+} */
 
 .portfolio-btn {
   display: inline-flex;
@@ -345,18 +370,23 @@ color: var(--secondary-text-color)
 }
 
 .portfolio-list {
+  width: 100%;
   display: flex;
   flex-wrap: wrap;
-  margin: -15px;
+  gap: 30px;
+  /* margin: -15px; */
 }
 
 .portfolio-item {
-  margin: 15px;
+  width: calc((100% - 60px) / 3);
+  /* width: 100%; */
+  /* width: calc((100%-60)/3); */
+  /* margin: 15px; */
 }
 
 .portfolio-border {
   border: 1px solid #eeeeee;
-  border-top: transparent;
+  border-top: none;
   padding: 20px 24px;
 }
 
