@@ -16,9 +16,9 @@
 }
 
 body {
-  color:var(--primary-text-color);
+  color: var(--primary-text-color);
   background-color: var(--white-back-text-color);
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   font-size: 14px;
   line-height: 1.71;
 }
@@ -58,28 +58,27 @@ img {
 
 /* Прячемо заголовок */
 .hidden-title {
-	position: absolute;
-	width: 1px;
-	height: 1px;
-	margin: -1px;
-	border: 0;
-	padding: 0;
-	white-space: nowrap;
-	clip-path: inset(100%);
-	clip: rect(0 0 0 0);
-	overflow: hidden;
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
 }
 
- 
 /* ~~~~~~~ШАПКА~~~~~~~ */
 .logo {
-  font-family: 'Raleway', sans-serif;
+  font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
   align-items: center;
   text-align: center;
-  color: var(--accent-color)
+  color: var(--accent-color);
 }
 
 .logo-black {
@@ -87,7 +86,7 @@ img {
 }
 
 .header {
-  border-bottom: 1px solid #ECECEC;
+  border-bottom: 1px solid #ececec;
 }
 
 .nav-flex {
@@ -126,11 +125,11 @@ img {
 }
 
 .header-contact-list {
-display: flex;
-margin-left: auto;
+  display: flex;
+  margin-left: auto;
 }
 
-.header-contact-item + .header-contact-item{
+.header-contact-item + .header-contact-item {
   margin-left: 50px;
 }
 
@@ -138,7 +137,7 @@ margin-left: auto;
   display: inline-flex;
   padding: 32px 0px 32px;
   align-items: center;
-  
+
   font-weight: 500;
   line-height: 1.14;
   letter-spacing: 0.02em;
@@ -155,14 +154,11 @@ margin-left: auto;
   fill: var(--accent-color);
 }
 
-
-
 .header-nav-link:hover,
 .header-nav-link:focus,
 .header-contact-link:hover,
 .header-contact-link:focus {
   color: var(--accent-color);
-  
 }
 
 .header-nav-link.current {
@@ -179,9 +175,9 @@ margin-left: auto;
   margin-left: auto;
   margin-right: auto;
   background-image: linear-gradient(
-    to right,
-    rgba(47, 48, 58, 0.4),
-    rgba(47, 48, 58, 0.4)
+      to right,
+      rgba(47, 48, 58, 0.4),
+      rgba(47, 48, 58, 0.4)
     ),
     url(../images/fon-hero.jpeg);
   background-repeat: no-repeat;
@@ -232,8 +228,8 @@ margin-left: auto;
 
 /* ~~~~~~СПИСОК ПЕРЕВАГ~~~~~~ */
 .features-list {
-display: flex;
-gap: 30px;
+  display: flex;
+  gap: 30px;
 }
 
 .features-item {
@@ -323,7 +319,7 @@ gap: 30px;
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
-  background-color: var(--white-back-text-color)
+  background-color: var(--white-back-text-color);
 }
 
 .team-workers {
@@ -338,11 +334,11 @@ gap: 30px;
 }
 
 .team-profession {
-margin-top: 10px;
-font-size: 16px;
-line-height: 1.18;
-text-align: center;
-color: var(--secondary-text-color)
+  margin-top: 10px;
+  font-size: 16px;
+  line-height: 1.18;
+  text-align: center;
+  color: var(--secondary-text-color);
 }
 
 .team-social-list {
@@ -409,7 +405,7 @@ color: var(--secondary-text-color)
   justify-content: center;
   width: 170px;
   height: 92px;
-  border: 1px solid #AFB1B8;
+  border: 1px solid #afb1b8;
   border-radius: 4px;
 }
 
@@ -425,7 +421,7 @@ color: var(--secondary-text-color)
 }
 
 .client-icon {
-  fill: #AFB1B8;
+  fill: #afb1b8;
 }
 
 .client-item:hover,
@@ -434,12 +430,11 @@ color: var(--secondary-text-color)
   border-color: var(--accent-color);
 }
 
-
 /* ~~~~~~~~ПІДВАЛ~~~~~~~ */
 .footer-contact-link {
   font-style: normal;
-  line-height:1.71;
-  color: var(--footer-text-color)
+  line-height: 1.71;
+  color: var(--footer-text-color);
 }
 
 .footer-contact-link:hover,
@@ -450,7 +445,7 @@ color: var(--secondary-text-color)
 .footer {
   padding-top: 60px;
   padding-bottom: 60px;
-  background-color: var(--hero-background-color)
+  background-color: var(--hero-background-color);
 }
 
 .footer-flex {
@@ -498,7 +493,7 @@ color: var(--secondary-text-color)
   height: 44px;
   border-radius: 50%;
   color: #ffffff;
-  background-color: rgba(255, 255, 255, 0.1);;
+  background-color: rgba(255, 255, 255, 0.1);
 }
 
 .footer-social-link:hover,
@@ -512,7 +507,7 @@ color: var(--secondary-text-color)
 }
 
 .logo-white {
-  color: var(--white-back-text-color)
+  color: var(--white-back-text-color);
 }
 
 .footer-contacts {
@@ -559,7 +554,7 @@ color: var(--secondary-text-color)
   border: 1px solid transparent;
   padding: 6px 22px;
 
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
@@ -572,7 +567,8 @@ color: var(--secondary-text-color)
 
 .portfolio-btn:hover,
 .portfolio-btn:focus {
-  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
   background-color: var(--accent-color);
   color: var(--white-back-text-color);
 }
